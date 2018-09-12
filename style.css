@@ -20,9 +20,11 @@ body{
 
 img{
     /*Taken from Professor Lawley's page to set portrait to one side of page
-        Changed float right to left */
+        Changed float right to left
+        also added a right side margin */
     float: left;
     padding: 0px;
-    border: 1px solid black;
+    border: 10px solid black;
     margin-left: 15px;
+    margin-right: 15px;
 }
