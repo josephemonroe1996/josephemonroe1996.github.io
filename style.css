@@ -7,17 +7,22 @@ html {
 
 h1 {
     font-size: 40px;
-    color: aliceblue;
+    color: ghostwhite;
     text-align: center;
     padding-bottom: 30px;
 }
 
 body{
     font-size: 24px;
-    color: aliceblue;
-    text-align: center;
+    color: ghostwhite;
+    text-align: left;
 }
 
 img{
-    padding-bottom: 30px;
+    /*Taken from Professor Lawley's page to set portrait to one side of page
+        Changed float right to left */
+    float: left;
+    padding: 0px;
+    border: 1px solid black;
+    margin-left: 15px;
 }
